@@ -34,3 +34,25 @@ code {
   color: #fff;
   background-color: #000;
 }
+
+.dog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dog-card {
+  border: 1px solid #ddd;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 150px;
+}
+
+.dog-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
